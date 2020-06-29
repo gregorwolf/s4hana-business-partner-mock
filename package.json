@@ -6,9 +6,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@sap/cds": "^3",
-    "@sap/cds-odata-v2-adapter-proxy": "^1.4.26",
-    "express": "^4"
+    "@sap/cds": "^3.34.3",
+    "@sap/cds-dk": "^1.8.5",
+    "@sap/cds-odata-v2-adapter-proxy": "^1.4.36",
+    "express": "^4.17.1"
   },
   "scripts": {
     "deploy:local": "cds deploy --with-mocks",
@@ -19,9 +20,6 @@
       "API_SALES_ORDER_SRV": {
         "kind": "odata",
         "model": "srv/external/API_SALES_ORDER_SRV"
-      },
-      "db": {
-        "kind": "sqlite"
       },
       "API_BUSINESS_PARTNER": {
         "kind": "odata",

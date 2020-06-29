@@ -1,4 +1,8 @@
 ### Read A_BusinessPartnerAddress
 GET http://localhost:4004/v2/business-partner/A_BusinessPartnerAddress
+### Read A_BusinessPartner
+GET http://localhost:4004/v2/business-partner/A_BusinessPartner
+### Read A_BusinessPartner expanded to to_BusinessPartnerAddress
+GET http://localhost:4004/v2/business-partner/A_BusinessPartner?$expand=to_BusinessPartnerAddress
 ### Read A_BusinessPartner expanded to to_BusinessPartnerAddress and to_Customer
 GET http://localhost:4004/v2/business-partner/A_BusinessPartner?$expand=to_BusinessPartnerAddress,to_Customer
