@@ -6,10 +6,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@sap/cds": "^3.34.3",
-    "@sap/cds-dk": "^1.8.5",
-    "@sap/cds-odata-v2-adapter-proxy": "^1.4.36",
-    "express": "^4.17.1"
+    "@sap/cds": "^6",
+    "@sap/cds-dk": "^6",
+    "@sap/cds-odata-v2-adapter-proxy": "^1",
+    "express": "^4"
   },
   "scripts": {
     "deploy:local": "cds deploy --with-mocks",
@@ -28,6 +28,6 @@
     }
   },
   "devDependencies": {
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^5"
   }
 }
